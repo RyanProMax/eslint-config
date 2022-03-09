@@ -1,0 +1,25 @@
+{
+  "name": "@ryanpromax/eslint-config",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Ryan",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx": "^0.1.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.10.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.10.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
