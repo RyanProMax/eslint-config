@@ -17,6 +17,9 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'linebreak-style': 0,
     quotes: [2, 'single'],
-    'react/react-in-jsx-scope': 0
+    'react/react-in-jsx-scope': 0,
+    'max-len': 0,
+    'react/prop-types': 0,
+    'default-param-last': 0
   }
 };
