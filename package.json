@@ -1,12 +1,14 @@
 {
   "name": "@ryanpromax/eslint-config",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "keywords": [],
   "author": "Ryan",
   "license": "MIT",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx": "^0.1.0",
