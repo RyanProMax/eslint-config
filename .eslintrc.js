@@ -10,7 +10,8 @@ module.exports = {
     'plugin:import/errors',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    'plugin:vue/vue3-recommended'
   ],
   plugins: ['react-hooks'],
   rules: {
@@ -30,6 +31,20 @@ module.exports = {
     'jsx-a11y/no-static-element-interactions': 0,
     'no-plusplus': 0,
     'import/prefer-default-export': 0,
-    'dot-notation': 0
+    'dot-notation': 0,
+
+    // ant fu
+    'vue/max-attributes-per-line': 'off',
+    'vue/no-v-html': 'off',
+    'vue/require-prop-types': 'off',
+    'vue/require-default-prop': 'off',
+    'vue/multi-word-component-names': 'off',
+
+    // reactivity transform
+    'vue/no-setup-props-destructure': 'off',
+
+    'vue/component-tags-order': ['error', {
+      order: ['script', 'template', 'style'],
+    }],
   }
 };
